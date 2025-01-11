@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f3;
+}
+
+/* font  */
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* hro section starts here */
+.hero {
+  background: rgb(198, 228, 214);
+  display: flex;
+  height: 560px;
+  width: 1280px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 160px 120px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.hero_container {
+  width: 50%;
+  margin: 80px 100px;
+}
+.hero_img {
+  margin: 80px 100px;
+}
+.hero_subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+.hero_title {
+  color: rgb(14, 14, 14);
+
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 40px;
+
+  text-align: left;
+  margin-bottom: 16px;
+}
+.btn-pry {
+  background: rgb(0, 106, 80);
+  width: 270px;
+  height: 56px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.btn-pry button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: auto 34px;
+  cursor: pointer;
+}
+
+/* The Vision of Future  */
+.vision {
+  height: 560px;
+  width: 1280px;
+  margin: 160px 120px;
+  padding: 20px;
+}
+.vision_title {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 24px 0px;
+}
+.vision_dis {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 12px 0px;
+}
+
+/* vision card */
+.vision_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.vision_img {
+  width: 49.66px;
+  height: 53.09px;
+  margin: 18px 0px;
+  left: 13.34px;
+  top: 1px;
+}
+
+.vision_item1 {
+  width: 425px;
+  height: 350px;
+  background: rgba(84, 144, 245, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0px 20px;
+}
+.vision_item2 {
+  width: 425px;
+  height: 350px;
+  background: rgb(198, 228, 214);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0px 20px;
+}
+.vision_item3 {
+  width: 425px;
+  height: 350px;
+  background: rgb(247, 235, 207);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0px 20px;
+}
+
+.vision_item_title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 16px 0px;
+}
+.vision_item_dis {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* vision button */
+.vision_btn1 {
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 32px;
+  border: none;
+}
+.vision_btn2 {
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 32px;
+  border: none;
+}
+.vision_btn3 {
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 32px;
+  border: none;
+}
+/* Dr. Muhammad Yunus */
+.yunus {
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  background-position: 20px 25px;
+  margin: 32px 160px 80px 160px;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  /* background: rgb(255, 255, 255); */
+}
+.yunus_dis {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.yunus_title {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+.yunus_position {
+  color: rgba(14, 14, 14, 0.6);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* news */
+.news_title {
+  color: rgb(14, 14, 14);
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 80px 160px 24px 160px;
+}
+.news_dis {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 12px 160px;
+}
+
+/* satellite1 */
+.satellite {
+  margin: 32px 160px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.satellite_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 45px;
+  margin: 48px;
+}
+
+/*  */
+.satellite_title {
+  color: rgba(14, 14, 14, 0.8);
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  /* margin-bottom: 12px; */
+}
+.al_jazera {
+  width: 134px;
+  height: 40px;
+  margin: 15px 0px;
+  /* border-radius: 24px; */
+}
+.news_date {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  gap: 12px;
+  margin: 0px 12px;
+}
+.satellite_dis {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  gap: 12;
+  margin: 0px 12px;
+}
+.satellite_img {
+  border-radius: 24px;
+}
+.satellite_btn {
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin: 32px 0px;
+  padding: 13px 26px 13px 26px;
+  border: none;
+}
+
+.donate {
+  height: 560px;
+  width: 1280px;
+
+  align-items: center;
+  margin: 160px 120px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.donate_text {
+  text-align: center;
+  align-items: center;
+}
+.doate_title {
+  color: rgb(14, 14, 14);
+
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+
+  text-align: center;
+}
+.donate_dis {
+  color: rgba(14, 14, 14, 0.7);
+
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  line-height: 24px;
+
+  text-align: center;
+}
+.donate_amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+.amount {
+  padding: 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px 20px 40px;
+}
+.donate_btn {
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  font-size: 16px;
+  font-weight: 600;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin: 32px 0px;
+  padding: 13px 26px 13px 26px;
+  border: none;
+}
