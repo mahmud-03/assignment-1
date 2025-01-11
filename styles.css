@@ -172,6 +172,12 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 32px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.vision_btn1:hover {
+  background: rgba(84, 143, 245, 0.337);
+  color: black;
 }
 .vision_btn2 {
   border-radius: 8px;
@@ -184,6 +190,12 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 32px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.vision_btn2:hover {
+  background: rgba(9, 161, 93, 0.271);
+  color: black;
 }
 .vision_btn3 {
   border-radius: 8px;
@@ -196,6 +208,12 @@ body {
   color: rgb(255, 255, 255);
   margin-top: 32px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.vision_btn3:hover {
+  background: rgba(255, 196, 57, 0.325);
+  color: black;
 }
 /* Dr. Muhammad Yunus */
 .yunus {
@@ -322,6 +340,12 @@ body {
   margin: 32px 0px;
   padding: 13px 26px 13px 26px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.satellite_btn:hover {
+  background-color: lightgreen;
+  color: black;
 }
 
 .donate {
@@ -396,6 +420,12 @@ body {
   margin: 32px 0px 0px 0px;
   padding: 13px 26px 13px 26px;
   border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.donate_btn:hover {
+  background-color: lightgreen;
+  color: black;
 }
 .donate .input_text input {
   padding: 20px 40px;
@@ -419,7 +449,7 @@ body {
 /* subscribe  */
 .subscribe {
   border-radius: 24px;
-  margin: 0px 160px;
+  margin: 0px 160px 80px 160px;
   background: rgb(198, 228, 214);
   padding: 44px 200px;
 }
@@ -461,4 +491,21 @@ body {
   cursor: pointer;
   left: -4px;
   background-color: rgb(0, 106, 80);
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+.btn_sub:hover {
+  background-color: lightgreen;
+  color: black;
+}
+.spam {
+  margin-bottom: 80px;
+  margin-top: 15px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
 }
