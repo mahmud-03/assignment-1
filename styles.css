@@ -50,27 +50,32 @@ body {
   margin-bottom: 16px;
 }
 .btn-pry {
-  background: rgb(0, 106, 80);
-  width: 270px;
-  height: 56px;
-  border-radius: 8px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
-.btn-pry button {
-  background: none;
+.hero button {
+  /* background: none; */
   border: none;
+  width: 270px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
   color: white;
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
   padding: auto 34px;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-
+.hero button:hover {
+  /* background: none; */
+  background-color: lightgreen;
+  color: black;
+}
 /* The Vision of Future  */
 .vision {
   height: 560px;
@@ -324,7 +329,7 @@ body {
   width: 1280px;
 
   align-items: center;
-  margin: 160px 120px;
+  margin: auto 120px;
   padding: 20px;
   border-radius: 10px;
 }
@@ -332,7 +337,7 @@ body {
   text-align: center;
   align-items: center;
 }
-.doate_title {
+.donate_title {
   color: rgb(14, 14, 14);
 
   font-size: 40px;
@@ -388,7 +393,7 @@ body {
   width: auto;
   padding: 10px;
   color: rgb(255, 255, 255);
-  margin: 32px 0px;
+  margin: 32px 0px 0px 0px;
   padding: 13px 26px 13px 26px;
   border: none;
 }
@@ -409,4 +414,51 @@ body {
 }
 .amount:hover {
   background-color: rgb(198, 228, 214);
+}
+
+/* subscribe  */
+.subscribe {
+  border-radius: 24px;
+  margin: 0px 160px;
+  background: rgb(198, 228, 214);
+  padding: 44px 200px;
+}
+.sub_title {
+  margin-top: 80px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+
+  text-align: center;
+}
+.sub_contain {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.text_center {
+  text-align: center;
+  /* align-items: center; */
+}
+.sub_input input {
+  border: none;
+  width: 600px;
+  /* border-radius: 8px; */
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 20px;
+}
+.btn_sub {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 30px;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  left: -4px;
+  background-color: rgb(0, 106, 80);
 }
